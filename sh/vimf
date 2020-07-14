@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# added to bottom of .bashrc file
+#export PATH=$PATH:~/bin
+# chmod 700 scriptname
+
+vim $(fzf)
+# vim $(fzf --height 40%)
+# vim $(fzf --height 40% --reverse)
